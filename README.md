@@ -1,5 +1,9 @@
 # 🌐 Lavanya Agrawal Portfolio Website
 
+<p align="center">
+  <img src="screenshot.png" alt="Portfolio Preview" width="900">
+</p>
+
 A personal portfolio website built to showcase my skills, projects, achievements, and learning journey as a Computer Science Engineering student.
 
 ## 🚀 Live Website
