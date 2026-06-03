@@ -63,6 +63,8 @@ Currently focused on building projects, strengthening DSA skills, and preparing 
 ## 📬 Connect With Me
 
 🌐 Portfolio: https://lavanyaagrawal.vercel.app/
+💻 GitHub: github.com/lavanyaag23
+🔗 LinkedIn: linkedin.com/in/lavanya-agrawal-06b57b320
 
 
 ---
