@@ -306,97 +306,35 @@ section{position:relative;z-index:1;}
 .stat-key{font-size:0.7rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--mist);}
 
 /* ── EDUCATION ── */
-.edu-wrap{
-  padding:7rem 4rem;
-  max-width:1200px;margin:0 auto;
-}
-.timeline2{
-  margin-top:4rem;
-  position:relative;
-  padding-left:0;
-}
-.tl-item{
-  display:grid;grid-template-columns:200px 1fr;
-  gap:3rem;margin-bottom:3.5rem;
-  align-items:start;
-  opacity:0;transform:translateY(20px);
-  transition:opacity 0.6s,transform 0.6s;
-}
-.tl-item.visible{opacity:1;transform:translateY(0);}
-.tl-date{
-  text-align:right;
-  padding-top:0.25rem;
-}
-.tl-year{
-  font-family:var(--font-serif);
-  font-size:1.4rem;font-weight:700;color:var(--gold);
-}
-.tl-period{font-size:0.75rem;color:var(--mist);margin-top:2px;}
-.tl-body{
-  border-left:1px solid rgba(201,168,76,0.25);
-  padding-left:2rem;position:relative;
-}
-.tl-body::before{
-  content:'';
-  position:absolute;left:-5px;top:8px;
-  width:9px;height:9px;border-radius:50%;
-  background:var(--gold);
-  box-shadow:0 0 12px rgba(201,168,76,0.5);
-}
-.tl-school{
-  font-family:var(--font-serif);
-  font-size:1.2rem;font-weight:700;
-  margin-bottom:0.25rem;color:var(--white);
-}
-.tl-degree{font-size:0.88rem;color:rgba(253,252,250,0.5);margin-bottom:0.75rem;}
-.tl-chips{display:flex;flex-wrap:wrap;gap:8px;}
-.chip{
-  font-size:0.75rem;font-weight:500;
-  padding:0.3rem 0.85rem;border-radius:2px;
-  border:1px solid rgba(201,168,76,0.25);
-  color:var(--gold);background:rgba(201,168,76,0.06);
-}
-.chip.green{
-  border-color:rgba(93,232,168,0.3);
-  color:#5de8a8;background:rgba(93,232,168,0.06);
-}
+.edu-wrap{padding:7rem 4rem;max-width:1200px;margin:0 auto}
+.journey-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1rem}
+.year-card{background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.07);border-radius:8px;overflow:hidden;transition:border-color 0.3s,transform 0.3s}
+.year-card:hover{border-color:rgba(201,168,76,0.28);transform:translateY(-3px)}
+.year-card-head{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.5rem;background:rgba(201,168,76,0.04);border-bottom:1px solid rgba(255,255,255,0.06)}
+.year-label{font-family:var(--font-serif);font-size:1.05rem;font-weight:700;color:var(--gold)}
+.ybadge{font-size:0.67rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;padding:0.22rem 0.7rem;border-radius:999px}
+.ybadge-active{color:var(--green);background:rgba(93,232,168,0.1);border:1px solid rgba(93,232,168,0.25)}
+.ybadge-done{color:var(--mist);background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1)}
+.year-card-body{padding:1.4rem 1.5rem}
+.yc-school{font-family:var(--font-serif);font-size:1rem;font-weight:700;color:var(--white);margin-bottom:0.2rem}
+.yc-degree{font-size:0.81rem;color:var(--mist);margin-bottom:0.9rem}
+.sem-chips{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:0.8rem}
+.sc{font-size:0.74rem;font-weight:500;padding:0.26rem 0.75rem;border-radius:3px;border:1px solid rgba(201,168,76,0.2);color:var(--gold);background:rgba(201,168,76,0.05)}
+.sc.hi{border-color:rgba(93,232,168,0.3);color:var(--green);background:rgba(93,232,168,0.05)}
+.focus-pills{display:flex;flex-wrap:wrap;gap:5px}
+.fp{font-size:0.7rem;padding:0.18rem 0.55rem;border-radius:3px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.07);color:rgba(253,252,250,0.42)}
 
-/* ── SKILLS ── */
-.skills-wrap{
-  padding:7rem 4rem;
-  max-width:1200px;margin:0 auto;
-}
-.skills-groups{
-  margin-top:4rem;
-  display:grid;grid-template-columns:1fr 1fr 1fr;
-  gap:2px;
-  background:rgba(201,168,76,0.08);
-  border:1px solid rgba(201,168,76,0.12);
-  border-radius:4px;overflow:hidden;
-}
-.skill-group{
-  background:var(--ink2);
-  padding:2rem 1.75rem;
-}
-.sg-title{
-  font-size:0.7rem;font-weight:600;
-  letter-spacing:0.15em;text-transform:uppercase;
-  color:var(--gold);margin-bottom:1.75rem;
-  padding-bottom:0.75rem;
-  border-bottom:1px solid rgba(201,168,76,0.15);
-}
-.sg-item{
-  display:flex;align-items:center;justify-content:space-between;
-  margin-bottom:1.25rem;
-}
-.sg-item:last-child{margin-bottom:0;}
-.sg-name{font-size:0.9rem;font-weight:400;color:rgba(253,252,250,0.8);}
-.sg-dots{display:flex;gap:5px;}
-.dot{
-  width:7px;height:7px;border-radius:50%;
-  background:rgba(201,168,76,0.2);
-}
-.dot.filled{background:var(--gold);}
+  /* ── SKILLS ── */
+.skills-wrap{padding:7rem 4rem;max-width:1200px;margin:0 auto}
+.skills-groups{margin-top:4rem;display:grid;grid-template-columns:1fr 1fr 1fr;gap:2px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.12);border-radius:4px;overflow:hidden}
+.skill-group{background:var(--ink2);padding:2rem 1.75rem}
+.sg-title{font-size:0.7rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:1.75rem;padding-bottom:0.75rem;border-bottom:1px solid rgba(201,168,76,0.15)}
+.sg-item{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.1rem}
+.sg-item:last-child{margin-bottom:0}
+.sg-name{font-size:0.88rem;font-weight:400;color:rgba(253,252,250,0.8)}
+.sg-dots{display:flex;gap:5px}
+.dot{width:7px;height:7px;border-radius:50%;background:rgba(201,168,76,0.2)}
+.dot.filled{background:var(--gold)}
 
 /* ── EXPERIENCE ── */
 .exp-wrap{
@@ -544,6 +482,27 @@ footer span{color:var(--rose);}
 <div id="cursor"></div>
 <div id="cursor-trail"></div>
 <canvas id="bg-canvas"></canvas>
+
+  <!-- INTRO LOADER -->
+<div id="intro">
+  <div class="intro-letters">
+    <span class="intro-letter" style="animation-delay:0.1s">L</span>
+    <span class="intro-letter" style="animation-delay:0.18s">a</span>
+    <span class="intro-letter" style="animation-delay:0.26s">v</span>
+    <span class="intro-letter" style="animation-delay:0.34s">a</span>
+    <span class="intro-letter" style="animation-delay:0.42s">n</span>
+    <span class="intro-letter" style="animation-delay:0.5s">y</span>
+    <span class="intro-letter" style="animation-delay:0.58s">a</span>
+  </div>
+  <div class="intro-line"></div>
+  <div class="intro-sub">B.Tech CSE · UPES Dehradun</div>
+  <div class="intro-bar-wrap"><div class="intro-bar"></div></div>
+</div>
+ 
+<div id="cursor"></div>
+<div id="cursor-trail"></div>
+<canvas id="particle-canvas"></canvas>
+<canvas id="bg-canvas" style="position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.5"></canvas>
 
 <!-- NAV -->
 <nav>
