@@ -4,7 +4,9 @@
   <img src="Screenshot.png" alt="Portfolio Preview" width="900">
 </p>
 
-A personal portfolio website built to showcase my skills, projects, achievements, and learning journey as a Computer Science Engineering student.
+A modern personal portfolio website showcasing my skills, projects, achievements, and journey as a Computer Science Engineering student.
+
+---
 
 ## 🚀 Live Website
 
@@ -12,26 +14,31 @@ A personal portfolio website built to showcase my skills, projects, achievements
 
 ---
 
-## 📖 About
+## 📖 About the Project
 
-This portfolio serves as my professional online presence where I share my projects, technical skills, educational background, and career aspirations.
+This portfolio is my personal online presence where I present my technical skills, projects, education, and career goals.
 
-It reflects my journey in software development, frontend technologies, and problem-solving.
+It reflects my journey in:
+- Software Development
+- Frontend Web Development
+- Problem Solving (DSA)
+- Continuous Learning & Growth
 
 ---
 
-## ✨ Highlights
+## ✨ Features
 
-- Responsive Portfolio Design
-- Professional Introduction
-- Skills Showcase
-- Project Portfolio
+- Fully Responsive Design (Mobile + Desktop)
+- Clean & Minimal UI
+- Projects Showcase Section
+- Skills Overview
+- About Me Section
 - Contact Information
-- Fast and Lightweight
+- Fast and Optimized Performance
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
@@ -42,41 +49,43 @@ It reflects my journey in software development, frontend technologies, and probl
 
 ## 👩‍💻 About Me
 
-Hi, I'm **Lavanya Agrawal**, a B.Tech Computer Science Engineering student passionate about:
+I am **Lavanya Agrawal**, a B.Tech Computer Science Engineering student passionate about building scalable and user-friendly applications.
 
+### Interests:
 - Java Programming
 - Data Structures & Algorithms
 - Frontend Development
-- Software Development
-- Continuous Learning
+- Problem Solving
+- Software Engineering
 
-Currently focused on building projects, strengthening DSA skills, and preparing for internships and placement opportunities.
+Currently focused on improving my DSA skills, building projects, and preparing for internships and placements.
 
 ---
 
-## 🎯 Current Learning Goals
+## 🎯 Goals
 
-- Data Structures & Algorithms in Java
-- Advanced Web Development
-- Object-Oriented Programming
-- DBMS & Operating Systems
-- Technical Interview Preparation
+- Strengthen Data Structures & Algorithms (Java)
+- Master Full Stack Development
+- Improve System Design Fundamentals
+- Build Real-World Projects
+- Prepare for Technical Interviews
 
 ---
 
 ## 📬 Connect With Me
 
-🌐 Portfolio: https://lavanyaagrawal.vercel.app/
-💻 GitHub: github.com/lavanyaag23
-🔗 LinkedIn: linkedin.com/in/lavanya-agrawal-06b57b320
-
+- 🌐 Portfolio: https://lavanyaagrawal.vercel.app/
+- 💻 GitHub: https://github.com/lavanyaag23
+- 🔗 LinkedIn: https://linkedin.com/in/lavanya-agrawal-06b57b320
 
 ---
 
 ## ⭐ Feedback
 
-Feedback and suggestions are always appreciated. Feel free to connect and share your thoughts.
+Feedback, suggestions, and improvements are always welcome. Feel free to connect!
 
 ---
 
-Made with ❤️ by Lavanya Agrawal
+<p align="center">
+  Made with ❤️ by Lavanya Agrawal
+</p>
